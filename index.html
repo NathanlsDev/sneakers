@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <title>Sneakers</title>
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style/style.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <section class="header__logo" role="title">
+        <span class="material-symbols-outlined">
+          menu
+          </span>
+        <img class="header__img" src="/assets/images/svg/logo.svg" alt="logo sneakers">
+      </section>
+
+      <nav class="header__nav"> <!--nav mobile transforma em um "menu" com deslize lateral -->
+        <a class="header__nav--link" href="#">Collections</a>
+        <a class="header__nav--link" href="#">Men</a>
+        <a class="header__nav--link" href="#">Women</a>
+        <a class="header__nav--link" href="#">About</a>
+        <a class="header__nav--link" href="#">Contact</a>
+      </nav>
+
+      <!--hover carrinho mostra um bloco
+      se esse carrinho estiver vazio
+        mostra "cart is empty"
+      se estiver com algum item
+          mostra foto + titulo + valorBase x quantidade e valor total. + botão remover + botão checkout-->
+      <div class="header__infos">
+        <span class="header__cart material-symbols-outlined">
+          shopping_cart
+        </span>
+        <div>
+          <img class="header__profile" src="assets/images/image-avatar.png" alt="profile photo"> 
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <img src="#" alt="">
+        <img src="#" alt="">
+        <img src="#" alt="">
+        <img src="#" alt="">
+        <img src="#" alt="">
+      </section>
+
+      <section>
+        <p>sneaker company</p>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole. they'll withstand everything the weather can offer.
+        </p>
+
+        <div>
+          <p>$125.00</p>
+          <p>50%</p>
+          <p>$250.00</p>
+        </div>
+
+        <section>
+          <div>
+            - 0 +
+          </div>
+
+          <button><i>cart</i> add to cart</button>
+        </section>
+      </section>
+    </main>
+    
+  </body>
+</html>
