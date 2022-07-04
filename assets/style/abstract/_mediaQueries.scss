@@ -1,5 +1,5 @@
 @mixin phone{
-  @media screen and (min-width: 668px) {
+  @media screen and (min-width: 670px) {
     @content;    
   }
 }
