@@ -9,41 +9,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <!--icons-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <title>Sneakers</title>
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/style/style.css">
   </head>
-
   <body>
     <header class="header">
       <section class="header__logo" role="title">
-        <span class="material-symbols-outlined">
-          menu
-          </span>
+        <button class="header__sandwich" id="sandwich">
+          <span class="header__menu--open" id="icon1"></span>
+          <span class="header__menu--close hidden" id="icon2"></span>
+        </button>
+
         <img class="header__img" src="/assets/images/svg/logo.svg" alt="logo sneakers">
       </section>
 
-      <nav class="header__nav"> <!--nav mobile transforma em um "menu" com deslize lateral -->
-        <a class="header__nav--link" href="#">Collections</a>
-        <a class="header__nav--link" href="#">Men</a>
-        <a class="header__nav--link" href="#">Women</a>
-        <a class="header__nav--link" href="#">About</a>
-        <a class="header__nav--link" href="#">Contact</a>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li> <a href="#">Collections</a></li>
+          <li> <a href="#">Men</a></li>
+          <li> <a href="#">Women</a></li>
+          <li> <a href="#">About</a></li>
+          <li> <a href="#">Contact</a></li>
+        </ul>
       </nav>
 
-      <!--hover carrinho mostra um bloco
-      se esse carrinho estiver vazio
-        mostra "cart is empty"
-      se estiver com algum item
-          mostra foto + titulo + valorBase x quantidade e valor total. + botão remover + botão checkout-->
+
       <div class="header__infos">
-        <span class="header__cart material-symbols-outlined">
-          shopping_cart
-        </span>
+        <span class="header__cart"></span>
         <div>
           <img class="header__profile" src="assets/images/image-avatar.png" alt="profile photo"> 
         </div>
@@ -81,6 +75,6 @@
         </section>
       </section>
     </main>
-    
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
