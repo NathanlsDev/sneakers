@@ -1,0 +1,40 @@
+@import '../abstract/variables';
+@import '../abstract/mixins';
+
+.gallery{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  .gallery__prod{
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .gallery__btnL{
+    left: 4%;
+    @include previousNext;
+    &:hover{
+      left: 3%;
+    }
+    .left__btn{
+      content: url(/assets/images/svg/icon-previous.svg);
+    }
+  }
+
+  .gallery__btnR{
+    right: 4%;
+    @include previousNext;
+    &:hover{
+      right: 3%;
+    }
+    .right__btn{
+      content: url(/assets/images/svg/icon-next.svg);
+    }
+  }
+}
+
+.index{
+  z-index: -1;
+}
