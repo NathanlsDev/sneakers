@@ -58,12 +58,12 @@
       }
 
       .nav__ul{
-        margin-top: 35px;
-        font-size: 1.1rem;
-        font-weight: 700;
         display: flex;
         flex-direction: column;
+        font-size: 1.1rem;
+        font-weight: 700;
         gap: 1.5rem;
+        margin-top: 35px;
         a{
           &:hover{
             color: $grayish-blue;
@@ -73,16 +73,16 @@
     }
   }
   .hidden{
-    left: 0;
     background-color: $opacity;
+    left: 0;
   }
 
   
   .header__infos{
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+    display: flex;
     gap: 2.2rem;
+    justify-content: space-between;
     .infos__btn{
       cursor: pointer;
       position: relative;
@@ -90,28 +90,28 @@
         content: url(/assets/images/svg/icon-cart.svg);
       }
       .cart__counter{
-        display: flex;
         align-items: center;
-        justify-content: center;
-        position: absolute;
         background-color: $orange;
-        width: 26px;
-        height: 18px;
         border-radius: 49%;
         color: $white;
+        display: flex;
         font-weight: 700;
         font-size: 1rem;
-        top: -35%;
-        right: -50%;
+        height: 18px;
+        justify-content: center;
+        position: absolute;
         padding: .5rem;
+        right: -50%;
+        top: -35%;
+        width: 26px;
       }
     }
 
     .infos__profile{
-      width: 50px;
-      cursor: pointer;
       border-radius: 50%;
       border: 2px solid transparent;
+      cursor: pointer;
+      width: 50px;
       &:hover{
         border: 2px solid $orange;
       }
