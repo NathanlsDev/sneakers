@@ -13,6 +13,7 @@
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/style/style.css">
   </head>
+
   <body>
     <header class="header">
       <section class="header__logo" role="title">
@@ -35,7 +36,7 @@
       </nav>
       
       <div class="header__infos">
-        <span class="header__cart"></span>
+        <span class="header__cart" id="cart"></span>
         <div>
           <img class="header__profile" src="assets/images/image-avatar.png" alt="profile photo"> 
         </div>
@@ -43,12 +44,18 @@
     </header>
 
     <main>
-      <section>
-        <img src="#" alt="">
-        <img src="#" alt="">
-        <img src="#" alt="">
-        <img src="#" alt="">
-        <img src="#" alt="">
+      <section class="gallery">
+        <picture>
+          <img class="gallery__prod"src="assets/images/image-product-1.jpg" alt="">
+          <img src="#" alt="">
+          <img src="#" alt="">
+          <img src="#" alt="">
+          <img src="#" alt="">
+        </picture>
+        <div class="gallery__btns">
+          <button class="gallery__btnL" id="gallery__next">></button>
+          <button class="gallery__btnR" id="gallery__previous"><</button>
+        </div>
       </section>
 
       <section>
@@ -73,6 +80,8 @@
         </section>
       </section>
     </main>
+    
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/cart.js"></script>
   </body>
 </html>
