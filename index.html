@@ -16,72 +16,85 @@
 
   <body>
     <header class="header">
-      <section class="header__logo" role="title">
-        <button class="header__sandwich" id="sandwich">
-          <span class="header__menu--open" id="icon1"></span>
-          <span class="header__menu--close hidden" id="icon2"></span>
+      <section class="header__logo">
+        <button class="header__sandwich" id="openSandwich">
+          <span class="header__menu--open"></span>
         </button>
 
         <img class="header__img" src="/assets/images/svg/logo.svg" alt="logo sneakers">
+
+        <nav class="header__nav">
+          <div class="nav__side">
+            <button class="nav__btn" id="closeSandwich">
+              <span class="nav__close"></span>
+            </button>
+            <ul class="nav__ul">
+              <li> <a href="#">Collections</a></li>
+              <li> <a href="#">Men</a></li>
+              <li> <a href="#">Women</a></li>
+              <li> <a href="#">About</a></li>
+              <li> <a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
       </section>
 
-      <nav class="header__nav luminous">
-        <ul class="header__ul">
-          <li> <a href="#">Collections</a></li>
-          <li> <a href="#">Men</a></li>
-          <li> <a href="#">Women</a></li>
-          <li> <a href="#">About</a></li>
-          <li> <a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      
       <div class="header__infos">
-        <span class="header__cart" id="cart"></span>
-        <div>
-          <img class="header__profile" src="assets/images/image-avatar.png" alt="profile photo"> 
+        <div class="infos__btn">
+          <span class="btn__cart"></span>
+          <div class="cart__counter">3</div>
         </div>
+
+        <img class="infos__profile" src="assets/images/image-avatar.png" alt="profile photo">
       </div>
     </header>
 
     <main>
-      <section class="gallery">
-        <picture>
-          <img class="gallery__prod"src="assets/images/image-product-1.jpg" alt="">
-          <img src="#" alt="">
-          <img src="#" alt="">
-          <img src="#" alt="">
-          <img src="#" alt="">
-        </picture>
-        <div class="gallery__btns">
-          <button class="gallery__btnL" id="gallery__next">></button>
-          <button class="gallery__btnR" id="gallery__previous"><</button>
-        </div>
+      <section class="gallery" id="glry">
+        <img class="gallery__prod"src="assets/images/image-product-1.jpg" alt="">
+
+        <button class="gallery__btnL" id="gallery__next">
+          <span class="left__btn"></span>
+        </button>
+
+        <button class="gallery__btnR" id="gallery__previous">
+          <span class="right__btn"></span>
+        </button>        
       </section>
 
-      <section>
-        <p>sneaker company</p>
-        <h1>Fall Limited Edition Sneakers</h1>
-        <p>
+
+      <section class="presentation">  
+        <p class="presentation__company">sneaker company</p>
+        <h1 class="presentation__title">Fall Limited Edition Sneakers</h1>
+
+        <p class="presentation__description">
           These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole. they'll withstand everything the weather can offer.
         </p>
+      </section>
 
-        <div>
-          <p>$125.00</p>
-          <p>50%</p>
-          <p>$250.00</p>
+      <section class="purchase">
+        <div class="purchase__prices"> 
+          <div class="purchase__values">
+            <p class="price">$125.00</p>
+            <p class="discount">50%</p>
+          </div>
+          <p class="older__price">$2̶5̶0̶.̶0̶0</p>
         </div>
 
-        <section>
-          <div>
-            - 0 +
-          </div>
+        <div class="purchase__quantity">
+          <span class="quantity__outer"></span>
+          <p class="quantity__value">0</p>
+          <span class="quantity__inner"></span>
+        </div>
 
-          <button><i>cart</i> add to cart</button>
-        </section>
-      </section>
+        <div class="purchase__btn">
+          <span class="btn__cart"></span>
+           Add to cart
+        </div>
+      </section>      
     </main>
-    
-    <script src="assets/js/main.js"></script>
+
+    <script src="assets/js/managerFx.js"></script>
     <script src="assets/js/cart.js"></script>
   </body>
 </html>
