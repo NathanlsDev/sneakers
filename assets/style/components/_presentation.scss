@@ -1,0 +1,25 @@
+@import '../abstract/variables';
+
+.presentation{
+  padding: 1rem;
+  .presentation__company{
+    margin-top: 1rem;
+    color: $orange;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
+  }
+
+  .presentation__title{
+    margin-top: 1.4rem;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .presentation__description{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: $dark-grayish-blue;
+    font-weight: 400;
+  }
+}
