@@ -251,16 +251,32 @@ body {
   padding: 1rem;
   width: 100%;
 }
-.purchase .purchase__quantity .quantity__outer {
-  content: url(/assets/images/svg/icon-minus.svg);
+.purchase .purchase__quantity .outer {
+  width: 20px;
+  height: 20px;
+  background: none;
+  z-index: 1;
+}
+.purchase .purchase__quantity .outer:hover {
   cursor: pointer;
+}
+.purchase .purchase__quantity .outer .quantity__outer {
+  content: url(/assets/images/svg/icon-minus.svg);
 }
 .purchase .purchase__quantity .quantity__value {
   font-weight: 700;
 }
-.purchase .purchase__quantity .quantity__inner {
-  content: url(/assets/images/svg/icon-plus.svg);
+.purchase .purchase__quantity .inner {
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  background: none;
+}
+.purchase .purchase__quantity .inner:hover {
   cursor: pointer;
+}
+.purchase .purchase__quantity .inner .quantity__inner {
+  content: url(/assets/images/svg/icon-plus.svg);
 }
 .purchase .purchase__btn {
   align-items: center;
@@ -274,6 +290,7 @@ body {
   justify-content: center;
   margin-top: 1rem;
   width: 100%;
+  cursor: pointer;
 }
 .purchase .purchase__btn .btn__cart {
   content: url(/assets/images/svg/icon-cart.svg);

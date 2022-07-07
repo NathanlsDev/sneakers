@@ -11,7 +11,7 @@
 
     <title>Sneakers</title>
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/style.css">    
   </head>
 
   <body>
@@ -42,11 +42,12 @@
       <div class="header__infos">
         <div class="infos__btn">
           <span class="btn__cart"></span>
-          <div class="cart__counter">3</div>
+          <div class="cart__counter">0</div>
         </div>
 
         <img class="infos__profile" src="assets/images/image-avatar.png" alt="profile photo">
       </div>
+
     </header>
 
     <main>
@@ -61,7 +62,6 @@
           <span class="right__btn"></span>
         </button>        
       </section>
-
 
       <section class="presentation">  
         <p class="presentation__company">sneaker company</p>
@@ -82,9 +82,15 @@
         </div>
 
         <div class="purchase__quantity">
-          <span class="quantity__outer"></span>
-          <p class="quantity__value">0</p>
-          <span class="quantity__inner"></span>
+          <button class="outer" id="outer">
+            <span class="quantity__outer"></span>
+          </button>
+
+          <p class="quantity__value" id="quantity">0</p>
+
+          <button class="inner" id="inner">
+            <span class="quantity__inner"></span>
+          </button>
         </div>
 
         <div class="purchase__btn">

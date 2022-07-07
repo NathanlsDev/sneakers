@@ -45,18 +45,37 @@
     justify-content: space-between;
     margin-top: 1rem;
     padding: 1rem;
-    width: 100%;
-    .quantity__outer{
-      content: url(/assets/images/svg/icon-minus.svg);
-      cursor: pointer;
+    width: 100%;  
+    .outer{
+      width: 20px;
+      height: 20px;
+      background: none;
+      z-index: 1;
+      &:hover{
+        cursor: pointer;
+      }
+      .quantity__outer{
+        content: url(/assets/images/svg/icon-minus.svg);
+      }
     }
+  
     .quantity__value{
       font-weight: 700;
     }
-    .quantity__inner{
-      content: url(/assets/images/svg/icon-plus.svg);
-      cursor: pointer;
+
+    .inner{
+      z-index: 1;
+      width: 20px;
+      height: 20px;
+      background: none;
+      &:hover{
+        cursor: pointer;
+      }
+      .quantity__inner{
+        content: url(/assets/images/svg/icon-plus.svg);
+      }
     }
+
   }
 
   .purchase__btn{
@@ -71,6 +90,7 @@
     justify-content: center;
     margin-top: 1rem;
     width: 100%;
+    cursor: pointer;
     .btn__cart{
       content: url(/assets/images/svg/icon-cart.svg);
     }
