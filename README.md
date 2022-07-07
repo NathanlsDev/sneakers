@@ -16,6 +16,7 @@ Apenas na versão mobile 360p
 
 # Sobre o projeto
 - Página de loja de produto, onde é possivel adicionar e remover a quanditade desejada de intens ao seu carrinho de compras!
+- Este projeto foi desenvolvido com o objetivo de práticar e melhorar minhas habilidades de lidar com layouts com funcionalidades distintas.
 
 # Tecnologias utilizadas
 
