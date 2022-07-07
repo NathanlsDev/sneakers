@@ -1,5 +1,3 @@
-# sneakers
-
 # Sneakers Mobile
 <div align="center" max-width="600" max-height="600">
   <a href="https://sneakers-zeta.vercel.app/" target="_blank">
