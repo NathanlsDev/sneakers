@@ -1,14 +1,9 @@
 # sneakers
-Página de produto, de e-commerce. Com funcionalidade de adicionar e remover item ao carrinho.
-
-Apenas na versão mobile 360p
-
 
 # Sneakers Mobile
 <div align="center" max-width="600" max-height="600">
   <a href="https://sneakers-zeta.vercel.app/" target="_blank">
-    <img width="600" src="https://raw.githubusercontent.com/NathanlsDev/sneakers/main/assets/images/mobile-design.jpg">
-    
+    <img width="600" src="https://raw.githubusercontent.com/NathanlsDev/sneakers/main/assets/images/mobile-design.jpg">    
   </a>
 </div>
 
@@ -17,6 +12,8 @@ Apenas na versão mobile 360p
 # Sobre o projeto
 - Página de loja de produto, onde é possivel adicionar e remover a quanditade desejada de intens ao seu carrinho de compras!
 - Este projeto foi desenvolvido com o objetivo de práticar e melhorar minhas habilidades de lidar com layouts com funcionalidades distintas.
+
+Apenas na versão mobile 360p
 
 # Tecnologias utilizadas
 
@@ -50,6 +47,8 @@ cd sneakers
 # Pré-requisito para executar o projeto
 npm install -g sass
 ```
+# Bugs
+- A forma como foi implementada a barra de navegação, faz com que ela esteja constantemente sobre o conteudo da página, tornando inacessivel alguns elementos. Havendo a necessidade de manipular o valor da propriedade "z-index", para que obter o comportamento esperado.
 
 # Autor
 
