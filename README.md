@@ -6,7 +6,7 @@ Apenas na versão mobile 360p
 
 # Sneakers Mobile
 <div align="center" max-width="600" max-height="600">
-  <a href="https://calculator-tip-roan.vercel.app/" target="_blank">
+  <a href="https://sneakers-zeta.vercel.app/" target="_blank">
     <img width="600" src="https://raw.githubusercontent.com/NathanlsDev/sneakers/main/assets/images/mobile-design.jpg">
     
   </a>
