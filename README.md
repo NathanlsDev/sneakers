@@ -13,6 +13,9 @@
 
 Apenas na versão mobile 360p
 
+### Status
+- Ainda faltam implementar várias funcionalidades, e adaptar o site corretamente para telas maiores.
+
 # Tecnologias utilizadas
 
 <div style="display: inline_block"><br>
